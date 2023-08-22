@@ -1,0 +1,256 @@
+
+
+
+body {
+    background-color: #f5f3f3;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.button {
+    text-decoration: none; 
+    color: black;
+}
+
+li {
+   list-style: none;
+}
+
+
+
+
+header{
+    display: flex;
+    height: 90px;
+    
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo h2 {
+    margin-left: 20px;
+}
+
+
+.logo img {
+    height: 50px;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+#carrito {
+    width: 500px;
+}
+
+.tbody-carrito td {
+  text-align: center;
+  padding-bottom: 10px;
+  
+}
+
+.borrar-libro {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.borrar-libro:hover {
+    
+    color: black;
+    
+}
+
+#vaciar-carrito {
+    border: 1px solid rgba(190, 190, 190, 0.989);
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#vaciar-carrito:hover {
+    border: 1px solid black;
+    
+}
+
+
+#lista-carrito th {
+    padding: 20px
+}
+
+.hero {
+    background-image: url(https://images4.alphacoders.com/132/1326368.png);
+    
+    background-size:100% 100%;
+    
+    height: 50vh;
+   
+
+}
+
+.h2-hero  {
+    color: white;
+    margin: 0;
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+.p-hero {
+    position: relative;
+    color: white;
+    left: 150px;
+    top: 70px;
+}
+
+.input-hero {
+    margin-top: 8rem;
+    margin-left: 10rem;
+    width: 450px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+}
+
+.div-color {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 9%, rgba(23,58,21,1) 43%, rgba(218,80,64,1) 79%);
+height: 15vh;
+}
+
+.row-div-color {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row-div-color p {
+    margin-left: 10px;
+    color: white;
+}
+
+.row-div-color img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.contenedor-card {
+    margin: 0px 200px 0px 200px;
+  }
+.contenedor-card h1{
+  margin: 0;
+  padding-top: 20px;
+}
+
+.row-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea tres columnas con ancho flexible */
+    gap: 20px;
+}
+
+
+.card {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.card img {
+  width: 300px;
+    height: 300px;
+    margin: 0;
+}
+
+.body-card {
+    
+    background-color: white;
+    text-align: center;
+}
+
+.body-card h4{
+    margin: 0;
+    
+}
+
+.body-card img{
+    height: 20px;
+    width: 150px;
+   
+
+}
+
+.body-card a{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    border: none;
+    
+   
+    height: 4vh;
+    color: white;
+    background-color: #13a0f8;
+    border-radius: 5px;
+
+
+}
+
+.body-card a:hover{
+
+   background-color:#0579c1 ;
+   cursor: pointer;
+    
+}
+
+.valor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    
+
+}
+
+.link {
+margin: 60px;
+
+}
+
+a {
+    display: block;
+    margin: 10px;
+    text-decoration: none; 
+    color: #13a0f8;
+}
+
