@@ -7,7 +7,7 @@
 - Css
 
 ### ¿Cómo correr el proyecto?
-No se necesita instalar ninguna libreria para poder correrlo
+Se necesita la extencion en visual studio code llamada Open with Live Server 
 
 ### ¿Cómo funciona?
 Bueno este fue un carrito de compras, la tematica es que se pueden comprar libros haciendole click en agregar al carrito, estos se agregan al carrito de compra.
